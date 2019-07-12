@@ -1,0 +1,195 @@
+﻿body {
+    font-family: monospace, Times, Times New Roman, Georgia serif, Lucida Console;
+    margin: 0;
+    background-image: url(https://images.wallpaperscraft.ru/image/tekstura_siniy_fon_ten_50468_1600x900.jpg)
+}
+
+div#header div.item h3, div.item h4, div.pager a {
+    font: monospace, Lucida Console, Courier;
+}
+
+div#header {
+    /*background-color: #600;*/
+    border-bottom: 2px solid #111;
+    color: #7FFFD4;
+    background-image: url(http://pm1.narvii.com/6871/4eb8853539874eba7d02c6798f21e107b2fff121r1-500-500v2_uhq.jpg);
+}
+
+    div#header div.title {
+        font: bold italic 12px "Arial Narrow","Franklin Gothic Medium",Arial;
+        font-size: 2em;
+        padding: 0.6em;
+    }
+
+div#content {
+    border-left: 2px solid red;
+    margin-left: 9em;
+    padding: 1em;
+    color: #7FFFD4;
+    
+}
+
+div#categories {
+    float: left;
+    width: 8em;
+    padding: .3em;
+}
+
+div.item {
+    border-top: 1px dotted gray;
+    padding-top: .7em;
+    margin-bottom: .7em;
+}
+
+    div.item:first-child {
+        border-top: none;
+        padding-top: 0;
+    }
+
+    div.item h3 {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+    }
+
+    div.item h4 {
+        font-size: 1.1em;
+        margin: .4em 0 0 0;
+    }
+
+div.pager {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+    div.pager a {
+        font-size: 1.1em;
+        color: #666;
+        text-decoration: none;
+        padding: 0 .4em 0 .4em;
+    }
+
+        div.pager a:hover {
+            background-color: Silver;
+        }
+
+        div.pager a.selected {
+            background-color: #353535;
+            color: white;
+        }
+
+div#categories a {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: #7FFFD4;
+    border-bottom: 1px solid silver;
+}
+
+    div#categories a.selected {
+        background-color: #666;
+        color: White;
+    }
+
+div.item button {
+    color: White;
+    background-color: #333;
+    border: 1px solid black;
+    float: right;
+}
+
+    div#categories a:hover {
+        background-color: #CCC;
+    }
+
+    div#categories a.selected:hover {
+        background-color: #666;
+    }
+
+h2 {
+    margin-top: 0.3em
+}
+
+#cartTable {
+    width: 90%;
+}
+
+    #cartTable tfoot td {
+        border-top: 1px dotted gray;
+        font-weight: bold;
+    }
+
+    #cartTable thead th {
+        text-align: right;
+    }
+
+        #cartTable thead th:first-child {
+            text-align: center;
+        }
+
+        #cartTable thead th:nth-child(2) {
+            text-align: left;
+        }
+
+    #cartTable tbody td {
+        text-align: right;
+    }
+
+        #cartTable tbody td:first-child {
+            text-align: center;
+        }
+
+        #cartTable tbody td:nth-child(2) {
+            text-align: left;
+        }
+
+    #cartTable tfoot tr td {
+        text-align: right;
+    }
+
+p.actionButtons {
+    text-align: center;
+}
+
+.actionButtons a, button.actionButtons {
+    font: .8em Arial;
+    color: White;
+    margin: .5em;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535;
+    border: 1px solid black;
+}
+div#cartSummary {
+    float: right;
+    margin: .8em;
+    color: Silver;
+    background-color: #555;
+    padding: .5em .5em .5em 1em;
+}
+
+    div#cartSummary a {
+        text-decoration: none;
+        padding: .4em 1em .4em 1em;
+        line-height: 2.1em;
+        margin-left: .5em;
+        background-color: #333;
+        color: White;
+        border: 1px solid black;
+    }
+.checkout label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+.checkout div input {
+    width: 200px;
+    margin: 2px;
+}
+
+#errors {
+    color: red;
+}
